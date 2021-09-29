@@ -1,0 +1,122 @@
+:root {
+    --pozadina: black;
+    --font: 'Bebas Neue', monospace;
+    --zlatna_boja: rgb(156, 151, 89);
+}
+
+
+
+body {
+    background: var(--pozadina);
+}
+
+h1 {
+    color:rgb(236, 236, 236);
+    font-family: var(--font);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h2 {
+    color:rgb(236, 236, 236);
+    font-family: var(--font);
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.img-fluid {
+    padding: -7cm;
+    margin-bottom: 0.5cm;
+}
+
+h5 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: var(--font);
+    font-size: 1cm;
+    margin-bottom: 10px;
+    font-family: var(--font);
+}
+
+
+h4 {
+    color: white;
+    text-align: center;
+    text-transform: lowercase;
+    font-size: 0.6cm;
+    margin-bottom: 10px;
+    font-family: var(--font);
+}
+
+.naziv {
+    margin-top: 0.5cm;
+    text-align: center;
+    background: var(--pozadina);
+    text-transform: uppercase;
+    color:white;
+    align-items: flex-end;
+}
+
+.piće {
+    background: var(--pozadina);
+    color: var(--zlatna_boja);
+    border-color: transparent;
+    text-decoration: none;
+    font-size: 0.5cm;
+    margin-top: -0.2cm;
+    font-family: var(--font);
+}
+
+
+.cijena {
+    background: var(--pozadina);
+    color: rgb(163, 159, 113);
+    border-color: transparent;
+    text-decoration: none;
+    font-size: 0.5cm;
+    margin-top: -0.2cm;
+    font-family: var(--font);
+    align-self: end;
+}
+
+
+
+.list-group-item {
+    background: transparent;
+    color: var(--zlatna_boja);
+    border-color: transparent;
+    text-decoration: none;
+    font-size: 0.7cm;
+    margin-top: 0.0cm;
+    margin-left: -25px;
+    margin-right: -25px;
+    font-family: var(--font);
+}
+
+
+
+.razmak {
+    background: var(--pozadina);
+    color:transparent;
+    font-size: 27px;
+    margin-top: 0.0cm;
+}
+
+
+.col2 {
+    text-align: right;
+}
+
+
+.btn {
+    font-size: 30px;
+    font-family: var(--font);
+    color: var(--zlatna_boja);
+    border-style: solid;
+    border-color: var(--zlatna_boja);
+    margin: 5px;
+
+}
